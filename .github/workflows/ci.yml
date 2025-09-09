@@ -7,7 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,8 +22,8 @@ jobs:
           pip install -e .
           pip install pytest build
 
-          - name: Run tests
-            run: pytest --maxfail=1 --disable-warnings -q
+      - name: Run tests
+        run: pytest --maxfail=1 --disable-warnings -q
 
       - name: Build package
         run: python -m build
