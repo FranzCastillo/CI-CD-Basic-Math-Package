@@ -1,6 +1,7 @@
 # Math Utils
 
 Simple math utilities package for demonstration of **CI/CD with GitHub Actions**.
+
 ![CI](https://github.com/FranzCastillo/CI-CD-Basic-Math-Package/actions/workflows/ci.yml/badge.svg)
 
 ## Functions
