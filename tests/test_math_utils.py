@@ -6,8 +6,8 @@ class TestMathFunctions(unittest.TestCase):
 
     # ========== Tests for square ==========
     def test_square_positive(self):
-        self.assertEqual(square(5), 25)
-        # self.assertEqual(square(5), 26)  # Intentional failure for demonstration
+        # self.assertEqual(square(5), 25)
+        self.assertEqual(square(5), 26)  # Intentional failure for demonstration
 
     def test_square_negative(self):
         self.assertEqual(square(-3), 9)
