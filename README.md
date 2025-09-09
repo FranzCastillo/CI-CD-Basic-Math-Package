@@ -15,3 +15,4 @@ Simple math utilities package for demonstration of **CI/CD with GitHub Actions**
 ```bash
 pip install .
 ```
+
