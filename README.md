@@ -18,11 +18,10 @@ pip install .
 
 ## Trigger CI/CD
 - Push code to `main` branch
-  - git add .
-  - git commit -m "Message"
-  - git push origin main
 - Create a pull request to `main` branch
-    - git checkout -b feature-branch
-    - git add .
-    - git commit -m "Message"
-    - git push origin feature-branch
+```bash
+git checkout -b feature/test-pipeline
+git add .
+git commit -m "Test"
+git push origin feature/test-pipeline
+```
