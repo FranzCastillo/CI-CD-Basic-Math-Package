@@ -6,7 +6,7 @@ def square(n):
     """
     if not isinstance(n, (int, float)):
         raise TypeError("The argument must be a number (int or float).")
-    return n ** 2
+    return n * 2
 
 def factorial(n):
     """
